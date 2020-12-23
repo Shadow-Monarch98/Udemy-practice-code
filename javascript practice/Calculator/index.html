@@ -1,0 +1,60 @@
+<html>
+   <head>
+       <script>
+        function dis(val) 
+         { 
+             document.getElementById("result").value+=val 
+         } 
+function solve() 
+         { 
+             let x = document.getElementById("result").value 
+             let y = eval(x) 
+             document.getElementById("result").value = y 
+         } 
+           
+        
+         function clr() 
+         { 
+             document.getElementById("result").value = "" 
+         }
+       </script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+
+    </head>
+     <body> 
+      <div class ="calculator" >
+          <input type="text" class="calculator-screen" id="result"/>
+        
+         
+         <div class="calculator-keys button">
+            
+            <input type="button" value="+" class="operator btn btn-info" onclick="dis('+')"/> 
+            <input type="button" value="-" class="operator btn btn-info" onclick="dis('-')"/>  
+          <input type="button" value="*"  class="operator btn btn-info" onclick="dis('*')"/> 
+             <input type="button" value="/"  class="operator btn btn-info" onclick="dis('/')"/> 
+             
+           <input type="button" value="7"  class="operator btn btn-info" onclick="dis('7')"/> 
+            <input type="button" value="8" onclick="dis('8')"/> 
+            <input type="button" value="9" onclick="dis('9')"/> 
+            
+            <input type="button" value="4" class="operator btn btn-info" onclick="dis('4')"/> 
+            <input type="button" value="5" class="operator btn btn-info" onclick="dis('5')"/> 
+            <input type="button" value="6" class="operator btn btn-info" onclick="dis('6')"/> 
+             
+           <input type="button" value="1" class="operator btn btn-info"  onclick="dis('1')"/> 
+            <input type="button" value="2" class="operator btn btn-info" onclick="dis('2')"/> 
+            <input type="button" value="3" class="operator btn btn-info" onclick="dis('3')"/>
+               
+             
+            <input type="button" value="0" onclick="dis('0')"/> 
+             <input type="button" value="." onclick="dis('.')"/> 
+             <input type="button" value="c" onclick="clr()"/>
+             
+            <input type="button" value="="  class="equal-sign " onclick="solve()"/> 
+            
+         </div> 
+         </div>
+      
+   </body> 
+</html>

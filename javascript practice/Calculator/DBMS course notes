@@ -1,0 +1,42 @@
+Technically, the smallest unit that can contain a meaningful set of data is called as "entity".
+So our rows, columns, and even tables are entities.
+
+We can think of entities as the objects of databases. But in this lecture, we will basically think entities as tables. And entities have some attributes.
+So with storing the department_id in each record of employees table, we simply establish a relationship
+
+among these two tables.
+
+So these arrows represent the relations between these two tables.
+
+So basically, a "relation" means a "connection" between two tables.
+architecture of the Oracle Database is briefly actually as an escort developer.
+
+Database Objects
+->Oracle Database has many database objects categorized under two subjects which are Schema objects and Nonschenects. Schema Objects: A schema is a collection of logical structures of data or objects. ->There are many schema o *cts. But, we11---. mention the objects that we will cover in this course or some important objects that we need to know.
+Table:A table is the base unit of the database to store data, formatted with columns and rows.
+View:	A view is a virtual table that provides access to a subset of columns or some restricted rows from one or more tables.
+Constraint:	Constraints are the rules for restricting invalid data entry into tables.
+Index:	Indexes are used for improving speed of data retrieval from tables.
+Sequence:	Sequences are the database objects which generate unique integers.
+Synonym:	A synonym is an alternative name (alias) for the database objects.
+Materialized View:	A materialized view has a real table filled by an SQL query unlike the views. The rrefilled with a specificied time frequency.
+Functions and Procedures:	Functions return some value, but procedures return nothing.
+Packages:	Packages are the schema objects that compiled and stored in the database.
+    Packages are consist of SQL - PL/SQL codes, variables, cursors, etc. to perform
+    operation by using functions and procedures.
+Database Links:	Database links are the connections between two physical database servers.
+• Nonschema Objects; Other types of objects thats stored in the database are called Nonschema Obje are not in a schema. There are a lot of nonschema objects like directories, roles, tablespaces, users, ...
+
+
+
+What is a Schema? 
+• Schemas are the collections of objects for each user in Oracle Database. 
+What is HR Schema? 
+
+• Abbreviation of Human Resources. A schema that can practice on it. ➢ A schema can have objects like: Tables,Views,Triggers,Constraints etc. 
+
+
+SQL is Structured Query Language 
+SQL is a language used to interact with the database. 
+WE can use SQL in
+BI, Data Science, Database Administration, Web Development, etc..

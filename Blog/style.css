@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix:after{
+    content:"";
+    display: table;
+    clear: both;
+}
+body{
+    font-family: Times new roman,Arial;
+    font-size: 20px;
+}
+h2{
+   font-size: 30px;
+   
+}
+.header{
+    color: blue;
+    font-size: 40px;
+    position: relative;
+}
+.arrow{
+    color: #004a00;
+    margin-bottom: 10px;
+   
+}
+.flash{
+     color: #ff0000;
+    margin-bottom: 10px;
+}
+}
+.main-txt{
+    text-align: justify;
+    margin-bottom: 25px;
+}
+.all {
+    width: 1440px;
+    padding: 0;
+    margin: 20px auto 0 auto; 
+}
+
+.arrowc {
+    width: 50%;
+    padding-right: 20px;
+    float: left;
+}
+
+.flashc {
+   
+}
+
+.auth {
+    border-top: 2px solid #797979;
+    float: left;
+}
+
+.auth img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    
+}
+
+.authtext {
+    font-size: 40px;
+    float: left;
+    margin: 50px 0 auto 10px;
+}
+
+.date {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
